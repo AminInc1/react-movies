@@ -27,7 +27,10 @@ const App = () => {
 
     setMovies(data.Search);
   }
-// the useEffect hook will fetch the data from the API URL
+// the useEffect hook will fetch the data from the API 
+//API_URL
+// after the page loads.
+
   useEffect(() => {
      searchMovies('Avengers');
   }, []);
